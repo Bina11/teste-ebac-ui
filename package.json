@@ -1,0 +1,23 @@
+{
+  "name": "testesautomaticos",
+  "version": "1.0.0",
+  "description": "Testes automatizados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bina11/teste-ebac-ui.git"
+  },
+  "author": "Sabrina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bina11/teste-ebac-ui/issues"
+  },
+  "homepage": "https://github.com/Bina11/teste-ebac-ui#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.11.0"
+  }
+}
