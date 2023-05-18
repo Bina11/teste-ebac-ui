@@ -17,6 +17,7 @@ describe('Funcionalidade Pré Cadastro', () => {
         cy.get('.register > :nth-child(1) > label').type(emailFaker)
         cy.get('.register > :nth-child(2) > label').type('teste12@teste.com')
         cy.get(':nth-child(4) > .button').click()
+        
         cy.get('.woocommerce-MyAccount-navigation-link--edit-account > a').click()
         cy.get('#account_first_name').type(nomeFaker)
         cy.get('#account_last_name').type(sobrenomeFaker)
